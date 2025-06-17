@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório de Auditoria de Segurança</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 40px;
+            color: #333;
+        }
+        h1 {
+            color: #2c3e50;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+            margin-top: 30px;
+        }
+        .date {
+            text-align: right;
+            margin-bottom: 30px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h1>RELATÓRIO DE AUDITORIA DE SEGURANÇA</h1>
+    <div class="date">Data: <span id="current-date"></span></div>
+
+    <div class="section">
+        <h2>1. RESUMO EXECUTIVO</h2>
+        <p>A auditoria de segurança foi realizada na página rpg.html e demais arquivos do projeto, com foco na identificação de possíveis causas de reprovação por "site comprometido" ou "software malicioso" nas campanhas do Google Ads.</p>
+    </div>
+
+    <div class="section">
+        <h2>2. CONCLUSÕES PRINCIPAIS</h2>
+        <ul>
+            <li>✓ Nenhum código malicioso ou suspeito foi identificado</li>
+            <li>✓ Todas as bibliotecas e recursos são de fontes confiáveis</li>
+            <li>✓ Não há redirecionamentos automáticos ou ocultos</li>
+            <li>✓ O conteúdo está em conformidade com as políticas do Google Ads</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>3. RECOMENDAÇÕES</h2>
+        <ol>
+            <li>Migrar rastreamentos para domínios próprios</li>
+            <li>Solicitar revisão manual ao Google Ads</li>
+            <li>Manter documentação atualizada</li>
+            <li>Implementar monitoramento contínuo</li>
+        </ol>
+    </div>
+
+    <div class="section">
+        <h2>4. PRÓXIMOS PASSOS</h2>
+        <ol>
+            <li>Implementar as recomendações listadas acima</li>
+            <li>Preparar documentação para revisão manual</li>
+            <li>Estabelecer processo de monitoramento</li>
+            <li>Revisar periodicamente a segurança</li>
+        </ol>
+    </div>
+
+    <script>
+        document.getElementById('current-date').textContent = new Date().toLocaleDateString('pt-BR');
+    </script>
+</body>
+</html> 
